@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nexus - Omni Vitally</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    .capa {
+      background: linear-gradient(to bottom, #0A2E73, #4FA9F7);
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .capa h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+
+    .capa h2 {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+
+    .logo {
+      font-size: 1.2em;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    section {
+      background: white;
+      padding: 30px 20px;
+      margin: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h3 {
+      color: #0A2E73;
+      font-size: 1.8em;
+      margin-bottom: 15px;
+    }
+
+    p {
+      color: #444;
+      text-align: justify;
+      font-size: 1em;
+    }
+
+    .caixa-destaque {
+      background: #4FA9F7;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 5px;
+      color: white;
+      font-size: 0.95em;
+    }
+
+    footer {
+      background: #0A2E73;
+      color: white;
+      text-align: center;
+      padding: 25px 15px;
+      font-size: 0.9em;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    ul li {
+      color: #0A2E73;
+      margin: 6px 0;
+      font-size: 0.95em;
+    }
+
+    h4 {
+      color: #0A2E73;
+      margin-top: 18px;
+      font-size: 1.2em;
+    }
+
+    /* Responsividade */
+    @media (min-width: 768px) {
+      .capa {
+        padding: 120px 20px;
+      }
+      .capa h1 {
+        font-size: 4em;
+      }
+      .capa h2 {
+        font-size: 1.5em;
+      }
+      .logo {
+        font-size: 1.5em;
+      }
+      section {
+        max-width: 900px;
+        margin: 20px auto;
+        padding: 40px;
+      }
+      h3 {
+        font-size: 2em;
+      }
+      p, ul li {
+        font-size: 1.1em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Capa -->
+  <section class="capa">
+    <h1>Omni Vitally</h1>
+    <h2>Complexo multivitamínico essencial para sua vitalidade diária</h2>
+    <div class="logo">Nexus</div>
+  </section>
+
+  <!-- Quem Somos -->
+  <section class="quem-somos">
+    <h3>Quem Somos?</h3>
+    <p>
+      Somos a <strong>Nexus</strong>, uma empresa dedicada à promoção da saúde humana, com o compromisso de
+      oferecer soluções inovadoras e eficazes. Nosso objetivo é proporcionar aos clientes uma
+      jornada de saúde e performance, incentivando um estilo de vida ativo, equilibrado e saudável.
+    </p>
+  </section>
+
+  <!-- Valores -->
+  <section class="valores">
+    <h3>Nossos Valores</h3>
+    <div class="caixa-destaque">Inovação no mercado de suplementos</div>
+    <div class="caixa-destaque">Transparência e honestidade</div>
+    <div class="caixa-destaque">Atendimento remoto 24h</div>
+    <div class="caixa-destaque">Melhores prazos e processos claros</div>
+  </section>
+
+  <!-- Omni Vitally -->
+  <section class="o-que-e-omni">
+    <h3>O que é Omni Vitally?</h3>
+    <p>
+      Omni Vitally é um suplemento nutricional formulado com vitaminas essenciais (A, B2, B3) que auxiliam
+      no fortalecimento da saúde geral. Desenvolvido especialmente para apoiar pessoas com anemia e
+      condições que afetam o desempenho diário.
+    </p>
+    <p>
+      Indicado para quem precisa de reforço nutricional, deve ser utilizado sob orientação médica,
+      garantindo uso seguro e eficaz.
+    </p>
+
+    <h4>✨ Benefícios do Omni Vitally</h4>
+    <ul>
+      <li>✔️ Melhora os níveis de energia e disposição no dia a dia</li>
+      <li>✔️ Auxilia na prevenção e combate da anemia</li>
+      <li>✔️ Fortalece o sistema imunológico</li>
+      <li>✔️ Contribui para a saúde da pele, cabelos e unhas</li>
+      <li>✔️ Ajuda no bom funcionamento do metabolismo</li>
+    </ul>
+
+    <h4>👤 Para quem é indicado?</h4>
+    <p>
+      • Pessoas com deficiência de ferro ou vitaminas essenciais<br>
+      • Mulheres jovens e adultas que precisam de reforço nutricional<br>
+      • Indivíduos em recuperação de condições de saúde que causam fraqueza<br>
+      • Quem busca mais vitalidade e desempenho físico e mental
+    </p>
+
+    <h4>💊 Como usar</h4>
+    <p>
+      Recomenda-se o consumo de 1 cápsula ao dia, preferencialmente junto às refeições, 
+      ou conforme a orientação de um médico ou nutricionista.
+    </p>
+
+    <h4>🌟 Diferenciais</h4>
+    <p>
+      O Omni Vitally se diferencia pela seleção rigorosa de vitaminas e minerais puros, 
+      produzidos sob alto controle de qualidade e seguindo as normas de segurança e saúde. 
+      Cada cápsula foi desenvolvida para máxima absorção e eficácia.
+    </p>
+  </section>
+
+  <!-- Contato -->
+  <footer>
+    <p>www.grandesite.com.br</p>
+    <p>(12) 3456-7890</p>
+    <p>ola@grandesite.com.br</p>
+    <p>&copy; 2025 Nexus - Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
